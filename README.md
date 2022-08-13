@@ -39,6 +39,19 @@ in the legacy zmx file extension, which is plain text.
         file](https://support.zemax.com/hc/en-us/articles/1500005490081-How-to-create-a-User-Operand-using-ZOS-API).
 -   UDOC02.exe
     -   c# compiled executable to be used with UDOC for the optimization of
-        shape factor for two surfaces.
+        shape factor for two surfaces. 
+    -   __The author recommends against using
+        this executable__. It performs the same function as the ZPL01.ZPL macro;
+        however, it has caused instability in the author's computer resulting in
+        computer crashes. 
+    -   See the license for information on use of the this and any software in
+        the repository.
 -   LICENSE
     -   MIT license
+
+## change log
+
+-   2022-08-12:
+    -   creation of the README.md file
+    -   (archived) old zmx files related to previous version of the manuscript.
+    -   addition of the cs and exe files related to UDOC operand optimization
