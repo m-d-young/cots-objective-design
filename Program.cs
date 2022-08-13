@@ -76,15 +76,15 @@ namespace CSharpUserOperandApplication2
 
             ZOSAPI.Editors.LDE.ILDERow surf;
 
-            // surf = TheSystem.LDE.GetSurfaceAt(surf1);
-            // double rad1 = surf.Radius;
+            surf = TheSystem.LDE.GetSurfaceAt(surf1);
+            double rad1 = surf.Radius;
 
-            // surf = TheSystem.LDE.GetSurfaceAt(surf2);
-            // double rad2 = surf.Radius;
+            surf = TheSystem.LDE.GetSurfaceAt(surf2);
+            double rad2 = surf.Radius;
 
-            // double shapeFactor = (rad1 + rad2) / (rad2 - rad1);
+            double shapeFactor = (rad1 + rad2) / (rad2 - rad1);
 
-            // double operandValue = Math.Abs(shapeFactor - shapeFactor * Math.Abs(shapeFactor));
+            double operandValue = Math.Abs(shapeFactor - shapeFactor * Math.Abs(shapeFactor));
 
             operandResults[0] = 0;
 

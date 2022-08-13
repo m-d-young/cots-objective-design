@@ -35,6 +35,10 @@ in the legacy zmx file extension, which is plain text.
         restrict Zemax OpticStudio to single core performance.
 -   Program.cs
     -   The c# code for generating the executable related to the use of UDOC
-        operand. See the [Zemax help file](https://support.zemax.com/hc/en-us/articles/1500005490081-How-to-create-a-User-Operand-using-ZOS-API).
+        operand. See the [Zemax help
+        file](https://support.zemax.com/hc/en-us/articles/1500005490081-How-to-create-a-User-Operand-using-ZOS-API).
+-   UDOC02.exe
+    -   c# compiled executable to be used with UDOC for the optimization of
+        shape factor for two surfaces.
 -   LICENSE
     -   MIT license
